@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import MultiStepHairProfileForm from "./MultiStepHairProfileForm";
 
 // PUBLIC_INTERFACE
 function Carousel({ items }) {
@@ -142,12 +143,10 @@ function App() {
             <p className="text-lg text-gray-500 mb-7 font-normal">
               Discover personalized hair routines tailored to your unique needs. Embrace healthy, beautiful hair—made simple.
             </p>
-            <button
-              className="inline-block bg-[#F5A623] hover:bg-[#F8C268] text-white font-semibold rounded-full px-7 py-3 text-base shadow transition-all ring-0 focus:outline-none"
-              style={{ boxShadow: "0px 4px 18px 0px #F5A62322" }}
-            >
-              Find Your Hair Type
-            </button>
+            {/* Multi-step form appears inline instead of finder button. */}
+            <div className="flex flex-col items-center w-full mt-6">
+              <MultiStepHairProfileForm />
+            </div>
           </div>
         </section>
 

@@ -6,6 +6,25 @@
   --border-color: rgba(255, 255, 255, 0.1);
 }
 
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -15,11 +34,49 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
 .app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
 
 .navbar {
   background-color: var(--base-dark);
@@ -35,6 +92,25 @@ body {
   z-index: 100;
 }
 
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
 .logo {
   font-size: 1.25rem;
   font-weight: 600;
@@ -43,9 +119,47 @@ body {
   gap: 8px;
 }
 
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
 .logo-symbol {
   color: var(--base-light);
 }
+
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
 
 .container {
   max-width: 900px;
@@ -54,6 +168,25 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
+
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
 
 .hero {
   padding-top: 120px;
@@ -65,11 +198,49 @@ body {
   gap: 24px;
 }
 
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
 .subtitle {
   color: var(--base-light);
   font-weight: 500;
   font-size: 1.1rem;
 }
+
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
 
 .title {
   font-size: 3.5rem;
@@ -78,6 +249,25 @@ body {
   margin: 0;
 }
 
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
 .description {
   font-size: 1.1rem;
   line-height: 1.5;
@@ -85,6 +275,25 @@ body {
   max-width: 600px;
   margin-bottom: 16px;
 }
+
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
 
 .btn {
   background-color: var(--base-light);
@@ -98,11 +307,68 @@ body {
   transition: background-color 0.2s ease;
 }
 
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
 .btn:hover {
   background-color: #7691ff;
 }
+
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }
 
 .btn-large {
   padding: 12px 24px;
   font-size: 1.1rem;
 }
+
+/* --- MultiStep Form Animations (minimal, pure CSS for Tailwind utility classes) --- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-fadein { animation: fadeIn 0.6s both; }
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-left { animation: slideInLeft 0.7s cubic-bezier(.32,.63,.47,1) both; }
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-40px);}
+  to { opacity: 1; transform: none;}
+}
+.animate-slidein-right { animation: slideInRight 0.7s cubic-bezier(.32,.63,.47,1) both; }

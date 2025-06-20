@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/hairhealth-hub-64335-ba206f66/hairhealth_hub"
+}

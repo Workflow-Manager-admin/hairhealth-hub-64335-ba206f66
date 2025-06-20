@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MultiStepHairProfileForm from "./MultiStepHairProfileForm";
+import DailyHairCareRoutinePlanner from "./DailyHairCareRoutinePlanner";
 
 // PUBLIC_INTERFACE
 function Carousel({ items }) {
@@ -148,6 +149,11 @@ function App() {
               <MultiStepHairProfileForm />
             </div>
           </div>
+        </section>
+
+        {/* Routine Planner Section */}
+        <section className="w-full max-w-2xl mx-auto mt-10 px-4">
+          <DailyHairCareRoutinePlanner />
         </section>
 
         <section className="w-full max-w-2xl mx-auto mt-12 px-4">
